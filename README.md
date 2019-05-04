@@ -1,6 +1,6 @@
 # Arithmetic
 
-This is an example about how to generate a private gem. This gem contain tha basic arithmetic operations. If you want to use it you should:
+This is an example about how to generate a private gem, **this isn't the official repository of `arithmetic` gem, it's only an example about hot to create a gem**. This gem contain tha basic arithmetic operations. If you want to use it you should:
 
 ## Build the gem:
 
@@ -57,7 +57,7 @@ Receive the number to subtract to base number. E.g:
 ```rb
  > my_number = Arithmetic.new(5)
 => #<Arithmetic:0x00007feba8906758 @number=3>
- > my_number.add(4)
+ > my_number.minus(4)
 => 1
 ```
 
